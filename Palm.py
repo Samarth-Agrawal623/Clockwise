@@ -9,7 +9,7 @@ API_KEY = os.environ.get("PALM_API_KEY")
 palm.configure(api_key = API_KEY)
 
 def main ():
-    st.image("./Logo-removebg-preview.png", use_column_width=False, width=100)
+    st.image("./Logo.png", use_column_width=False, width=100)
     st.header("Chat with ⌚Clockwise")
     st.write("")
 
